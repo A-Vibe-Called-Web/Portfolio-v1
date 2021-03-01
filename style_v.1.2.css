@@ -1,0 +1,217 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    background-color: #004767; 
+}  
+/*heading font */
+@font-face {
+    font-family: 'league-spartan';
+    src: url(Fonts/LeagueSpartan-Bold.otf);
+    font-style: bold;
+    font-weight: 600;
+}
+/* paragraph font*/
+@font-face {
+    font-family: 'Raleway';
+    src: url(Fonts/Raleway-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+/* Navbar*/
+.navbar {
+    border: 2px solid transparent;
+    padding: .8rem;
+    
+}
+.navbar-nav li {
+    padding-right: 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #871650;
+    transition: 0.5 ease;
+}
+/* Header bg */ 
+.parallax img {
+    height: 500px;
+    width: 100%;
+}
+.main_row {
+    text-align: center;
+}
+.main_row h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+.fa-laptop-code{
+    color: #871650;
+}
+.fa-code{
+    color: #871650;
+}
+.fa-css3 {
+    color: #871650;
+}
+.fa-python {
+    color: #871650;
+}
+.main_row h1 {
+    font-family: 'league-spartan';
+    font-weight: 600;
+    color: #CFBF4B;
+}
+#Welcome {
+    font-family: 'Raleway';
+    font-style: bold;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.welcome {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.welcome p{
+    color: white;
+}
+.awesome-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+}
+.level {
+    text-transform: uppercase;
+}
+#about h3{
+    font-family: 'league-spartan';
+    font-weight: 600;
+    color: #CFBF4B;
+    font-size: xx-large;
+    text-transform: uppercase;
+    
+}
+#about p {
+    font-family: 'Raleway';
+    font-size: small;
+}
+#about {
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: #2a6d8c;
+    border-radius: 0.5rem;
+    color: #CFBF4B;
+    text-transform: uppercase;
+    
+}
+.about_row img{
+    width: auto;
+    height: 55vh;
+}
+#project h1 {
+    font-family: 'league-spartan';
+    font-weight: 600;
+    color: #CFBF4B;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.card {
+    border-bottom: 8px solid #2a6d8c;
+}
+
+#connect h4 {
+    font-family: 'league-spartan';
+    font-weight: 600;
+    color: #CFBF4B;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+#connect {
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: #2a6d8c;
+    border-radius: 0.5rem;
+    color: #CFBF4B;
+    text-transform: uppercase;
+}
+.fa-Linkedin-in{
+    color: #00aced;
+}
+.fa-Linkedin-in:hover {
+    color: #871650;
+}
+.fa-github{
+    color: black;
+}
+.fa-github:hover{
+    color: #871650;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-youtube:hover{
+    color:  #871650;
+}
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+.fa-google-plus-g:hover{
+    color: #871650;
+}
+.social a {
+    font-size: 1.5em;
+    padding: 3rem;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/*-------Media Query-----*/
+
+@media (max-width: 992px) {
+.social a {
+    font-size: 1em;
+    padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+.display-4 {
+   font-size: 200%;
+}
+.social a {
+    font-size: 0.8em;
+    padding: .8rem;
+}
+}
+
+@media (max-width: 576px) {
+.display-4 {
+     font-size: 160%;
+}
+.social a {
+    font-size: .5em;
+    padding: 0.5rem;
+}
+}
