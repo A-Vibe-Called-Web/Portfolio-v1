@@ -135,6 +135,7 @@ html, body {
 }
 .card {
     border-bottom: 8px solid #2a6d8c;
+    background: #dad0c0;
 }
 
 #connect h4 {
