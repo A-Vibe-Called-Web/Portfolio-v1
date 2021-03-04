@@ -113,6 +113,10 @@ html, body {
     font-family: 'Raleway';
     font-size: small;
 }
+.about b{
+    color: #CFBF4B;
+    font-weight: 300;
+}
 #about {
     font-family: 'Raleway';
     font-weight: 600;
