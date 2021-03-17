@@ -209,7 +209,22 @@ hr.light-100 {
 .social a {
     font-size: 1em;
     padding: 1.5rem;
-    }
+}
+.parallax img {
+    height: 510px;
+    width: 100%;
+}
+#about img {
+    max-width: 100%;
+    height: 480px;
+}
+.scroll-bar{
+    height: 500px;
+    width: 830px;
+    overflow:auto;
+    padding:10px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -220,6 +235,20 @@ hr.light-100 {
     font-size: 0.8em;
     padding: .8rem;
 }
+.parallax img {
+    height: 450px;
+    width: 100%;
+}
+#about img {
+    max-width: 100%;
+    height: 450px;
+}
+.scroll-bar{
+    height: 400px;
+    width: 680px;
+    overflow:auto;
+    padding:10px;
+}
 }
 
 @media (max-width: 576px) {
@@ -227,7 +256,7 @@ hr.light-100 {
      font-size: 160%;
 }
 .social a {
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding: 1rem;
     
 }
@@ -243,9 +272,6 @@ hr.light-100 {
     height: 400px;
     width: 100%;
     overflow:auto;
-    background-color:#2a6d8c;
-    color:dark #2a6d8c;
-    scrollbar-base-color:#2a6d8c;
     padding:10px;
 }
 }
