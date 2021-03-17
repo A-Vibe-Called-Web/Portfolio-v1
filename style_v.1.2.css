@@ -288,4 +288,10 @@ hr.light-100 {
     overflow:auto;
     padding:10px;
 }
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+}
 }
