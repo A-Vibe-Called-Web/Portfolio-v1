@@ -43,7 +43,7 @@ html, body {
 }
 /* Header bg */ 
 .parallax img {
-    height: 500px;
+    height: 710px;
     width: 100%;
 }
 .main_row {
@@ -159,10 +159,10 @@ html, body {
     color: #CFBF4B;
     text-transform: uppercase;
 }
-.fa-Linkedin-in{
+.fa-linkedin-in:hover {
     color: #00aced;
 }
-.fa-Linkedin-in:hover {
+.fa-linkedin-in:hover {
     color: #871650;
 }
 .fa-github{
@@ -218,10 +218,12 @@ hr.light-100 {
      font-size: 160%;
 }
 .social a {
-    font-size: .5em;
-    padding: 0.5rem;
-}
-#about {
+    font-size: 0.8em;
+    padding: 1rem;
     
+}
+.parallax img {
+    height: 300px;
+    width: 100%;
 }
 }
