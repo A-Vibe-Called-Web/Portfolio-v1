@@ -44,7 +44,7 @@ html, body {
 /* Header bg */ 
 .parallax {
     /* The image used */
-    background-image: url(images/cheng-feng-J6Atq83sBho-unsplash.jpg);
+    background-image: url(/Images/cheng-feng-J6Atq83sBho-unsplash.jpg);
   
     /* Set a specific height */
     min-height: 750px;
