@@ -213,12 +213,12 @@ hr.light-100 {
 }
 
 /*-------Media Query-----*/
-@media only screen and (max-device-width: 768px) {
+/*@media only screen and (max-device-width: 768px) {
     .parallax {
       background-attachment: scroll;
     }
   }
-
+*/
 @media (max-width: 992px) {
 .social a {
     font-size: 1em;
